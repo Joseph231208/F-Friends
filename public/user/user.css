@@ -1,0 +1,47 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.user-side {
+    grid-column: 1/2;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.user-side ul {
+    list-style: none;
+}
+
+.user-side ul li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.profile-holder {
+    grid-column: 2/3;
+    background-color: rgb(255, 243, 219);
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+}
+
+.profile-holder nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-holder nav img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 5px;
+}
+
+.profile-holder nav div {
+    padding: 10px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

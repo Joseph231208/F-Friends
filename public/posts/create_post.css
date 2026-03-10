@@ -1,0 +1,116 @@
+.error:empty {
+    display: none;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.user-side {
+    grid-column: 1/2;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.user-side ul {
+    list-style: none;
+}
+
+.user-side ul li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.template-holder {
+    grid-column: 2/3;
+    background-color: rgb(255, 243, 219);
+    padding: 20px;
+    display: flex;
+}
+
+.template-inside {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+.title-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.inner-block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.title-block input {
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    font-size: 17px;
+    border: 2px solid rgb(138, 138, 138);
+
+    transition: 0.3s ease;
+}
+
+.title-block input:focus {
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+.inner-block textarea {
+    resize: none;
+    padding: 10px;
+    width: 80%;
+    font-size: 15px;
+    min-height: 200px;
+    border: 2px solid rgb(138, 138, 138);
+    overflow-y: hidden;
+
+    transition: 0.3s ease;
+}
+
+.inner-block textarea:focus {
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.template-holder #save-button {
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+
+    transition: 0.3s ease;
+}
+
+.template-holder #save-button:hover {
+    border-color: black;
+    transform: scale(1.1);
+}
+
+.template-holder #save-button:active {
+    border-color: black;
+    transform: scale(0.9);
+}
+
+.error {
+    background-color: rgb(255, 196, 196);
+    border-radius: 10px;
+
+    padding: 5px 10px;
+    color: rgb(140, 0, 0);
+}

@@ -1,0 +1,99 @@
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.user-side {
+    grid-column: 1/2;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.user-side ul {
+    list-style: none;
+}
+
+.user-side ul li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.event-side {
+    grid-column: 2/3;
+    background-color: rgb(255, 243, 219);
+}
+
+.news-side {
+    grid-column: 3/4;
+}
+
+.post {
+    background-color: white;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.post .user-block {
+    display: grid;
+    flex-direction: row;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 8fr 1fr;
+}
+
+.post .user-block img{
+    content: url("https://i0.wp.com/digitalhealthskills.com/wp-content/uploads/2022/11/3da39-no-user-image-icon-27.png?fit=500%2C500&ssl=1");
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 5px;
+    grid-column: 1/2;
+}
+
+.post nav {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.post .button-holder {
+    grid-column: 4/5;
+    padding: 10px;
+}
+
+.post .button-holder button {
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+
+    background-color: white;
+    border: 1px solid black;
+    transition: 0.3s ease;
+}
+
+.post .button-holder button:hover {
+    background-color: rgb(229, 229, 229);
+}
+
+.post-block {
+    padding: 10px;
+}
+
+.body {
+    padding: 10px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sub-line {
+    width: 95%;
+    height: 2px;
+    background-color: burlywood;
+    align-self: center;
+    border-radius: 10px;
+}

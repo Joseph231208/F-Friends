@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/posts/create_post.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>F&Friends</h1>
+            <nav></nav>
+            <ul>
+                <li id="ToMain-href"></li>
+                <li id="ToRules-href"></li>
+                <li id="ToGroups-href"></li>
+                <li id="Login-href"></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section class="main">
+            <div class="user-side">
+                <ul>
+                    <li id="home-link">Моя страница</li>
+                    <li id="friends-link">Друзья</li>
+                    <li id="message-link">Сообщения</li>
+                    <li id="groups-link">Создать пост</li>
+                    <li id="settings-link">настройки аккаунта</li>
+                    <li id="quit-link">Выйти из аккаунт</li>
+                </ul>
+            </div>
+            <div class="template-holder">
+                <div class="template-inside">
+                    <h3>Make your post</h3>
+                    <div class="title-block">
+                        <p>The title</p>
+                        <p class="error"></p>
+                        <input id="the_title" maxlength="40px" placeholder="here goes your title">
+                    </div>
+                    <div class="inner-block">
+                        <p>Your text</p>
+                        <p class="error"></p>
+                        <textarea maxlength="200" id="post-inner-text" placeholder="here goes your main text"></textarea>
+                    </div>
+                    <button id="save-button">Save</button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="/global.js"></script>
+    <script src="/leftmenu.js"></script>
+    <script src="/posts/create_post.js"></script>
+</body>
+</html>

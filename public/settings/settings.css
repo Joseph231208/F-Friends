@@ -1,0 +1,90 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.user-side {
+    grid-column: 1/2;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.user-side ul {
+    list-style: none;
+}
+
+.user-side ul li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.settings-side {
+    grid-column: 2/3;
+}
+
+.setting-inner {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.setting-inner .setblock {
+    padding: 5px;
+    display: flex;
+    gap: 10px;
+
+    flex-direction: column;
+}
+
+.setting-inner .setblock input {
+    padding: 5px;
+}
+
+.setting-inner .setblock button {
+    padding: 5px;
+    background-color: white;
+    border: 1px solid black;
+
+    transition: 0.3s ease;
+}
+
+.setting-inner .setblock button:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+
+.setting-inner .setblock div {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.setblock .error:empty, .setblock .success:empty {
+    display: none;
+}
+
+.setblock .error, .setblock .success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.setblock .error {
+    background-color: rgb(255, 137, 137);
+    color: rgb(146, 12, 12);
+}
+
+.setblock .success {
+    background-color: greenyellow;
+    color: rgb(12, 75, 12);
+}
+
+.news-side {
+    grid-column: 3/4;
+}

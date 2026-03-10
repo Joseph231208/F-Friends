@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&F</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/friends/friends.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>F&Friends</h1>
+            <nav></nav>
+            <ul>
+                <li id="ToMain-href"></li>
+                <li id="ToRules-href"></li>
+                <li id="ToGroups-href"></li>
+                <li id="Login-href"></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section class="main">
+                <div class="user-side">
+                    <ul>
+                        <li id="home-link">Моя страница</li>
+                        <li id="friends-link">Друзья</li>
+                        <li id="message-link">Сообщения</li>
+                        <li id="groups-link">Создать пост</li>
+                        <li id="settings-link">настройки аккаунта</li>
+                        <li id="quit-link">Выйти из аккаунт</li>
+                    </ul>
+                </div>
+                <div class="friends-list">
+                    <div class="pick-list">
+                        <button id="my-friends-side" class="slide-active">Мои друзья</button>
+                        <button id="find-friends-side">Искать друзей</button>
+                        <button id="my-requests-side">Мои запросы</button>
+                        <button id="blacklist-side">Черный список</button>
+                    </div>
+                    <div class="list myfriends">
+                        
+                    </div>
+                    <div class="list findfriends hidden">
+                        <nav>
+                            <div class="param">
+                                <p>Write down User`s Name or ID</p>
+                                <input id="listff-name" placeholder="User`s name or id">
+                            </div>
+                        </nav>
+                        <div class="ff-event-placeholder">
+                            
+                        </div>
+                    </div>
+                    <div class="list myrequests hidden">
+                        <nav>
+                            <div class="param" id="req-picker">
+                                <button class="request-button-picked reqtome">Request to me</button>
+                                <button class="reqfromme">Request from me</button>
+                            </div>
+                        </nav>
+                        <div class="request-holder-tome">
+                        </div>
+                        <div class="request-holder-fromme hidden">
+                        </div>
+                    </div>
+                    <div class="list blacklist hidden">
+
+                    </div>
+                </div>
+                <div class="news-side">
+                    
+                </div>
+            </section>
+        </div>
+
+
+    <script src="/leftmenu.js"></script>
+    <script src="/global.js"></script>
+    <script src="/friends/friends.js"></script>
+</body>
+</html>

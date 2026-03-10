@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F&F</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/settings/settings.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>F&Friends</h1>
+            <nav></nav>
+            <ul>
+                <li id="ToMain-href"></li>
+                <li id="ToRules-href"></li>
+                <li id="ToGroups-href"></li>
+                <li id="Login-href"></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section class="main">
+            <div class="user-side">
+                <ul>
+                    <li id="home-link">Моя страница</li>
+                    <li id="friends-link">Друзья</li>
+                    <li id="message-link">Сообщения</li>
+                    <li id="groups-link">Создать пост</li>
+                    <li id="settings-link">настройки аккаунта</li>
+                    <li id="quit-link">Выйти из аккаунт</li>
+                </ul>
+            </div>
+            <div class="settings-side">
+                <div class="setting-inner">
+                    <div class="setblock">
+                        <h3>Change my name</h3>
+                        <div>
+                            <input placeholder="Your name" id="name">
+                            <button id="name-trigger">change</button>
+                            <div id="nameerror" class="error"></div>
+                            <div id="namesuccess" class="success"></div>
+                        </div>
+                    </div>
+                    <div class="setblock">
+                        <h3>Change my Age</h3>
+                        <div>
+                            <input type="date" id="date">
+                            <button id="date-trigger">change</button>
+                            <div id="dataerror" class="error"></div>
+                            <div id="datasuccess" class="success"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="news-side">
+                
+            </div>
+        </section>
+    </div>
+    <script src="/global.js"></script>
+    <script src="/settings/settings.js"></script>
+    <script src="/leftmenu.js"></script>
+</body>
+</html>

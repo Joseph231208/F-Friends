@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="/reg&log/reg.css">
+</head>  
+<body>
+    <header>
+        <div class="container">
+            <h1>F&Friends</h1>
+            <nav></nav>
+            <ul>
+                <li id="ToMain-href"></li>
+                <li id="ToRules-href"></li>
+                <li id="ToGroups-href"></li>
+                <li id="Login-href"></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <section class="reg-block">
+            <div class="reg-inblock">
+                <h2>Create you own Account</h2>
+                <p>most safiest place to talk is here</p>
+                <div class="inreg-placeholder">
+                    <nav>
+                        <div>
+                            <p>Your Name</p>
+                            <div class="error"></div>
+                            <input id="first-name" placeholder="your name">
+                        </div>
+                        <div>
+                            <p>Your Email</p>
+                            <div class="error"></div>
+                            <input id="email" placeholder="your email">
+                        </div>
+                        <div>
+                            <p>Your Birth Date</p>
+                            <div class="error"></div>
+                            <input id="birth-date" type="date"> 
+                        </div>
+                    </nav>
+                    <nav>
+                        <div>
+                            <p>Create Password</p>
+                            <div class="error"></div>
+                            <input id="password-one" type="password" placeholder="your Password">
+                            <div class="eyeholder"><button id="eye">👁</button></div>
+                            
+                        </div>
+                        <div>
+                            <p>Confirm Password</p>
+                            <div class="error"></div>
+                            <input id="password-two" type="password" placeholder="repeat Password">
+                        </div>
+                        <div>
+                            <div class="error"></div>
+                            <h3>The license</h3>
+                            <div class="license">
+                                <p>Я освeдомлен/а и согласна с правилами пользования этого сайта</p>
+                                <input id="checkbox" type="checkbox">
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="inreg-after">
+                    <button id="try-to-create">Создать</button>
+                    <p>Есть Аккаунт?</p>
+                    <button id="send-to-logpage">войти в Аккаунт</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/reg&log/reg.js"></script>
+    <script src="/global.js"></script>
+</body>
+</html>
