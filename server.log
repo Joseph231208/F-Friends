@@ -1,0 +1,1471 @@
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:19:07 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:21:30 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:22:05 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:22:07 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:22:24 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:23:58 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:24:18 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:24:22 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:25:39 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:26:42 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:26:59 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:27:24 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:28:13 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:29:02 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:31:01 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:31:13 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:31:52 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:31:58 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:32:14 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:32:44 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:32:50 ===
+Server is working on http://localhost
+MongoDB подключена
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:33:18 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /.well-known/appspecific/com.chrome.devtools.json
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk',
+  title: '3243',
+  text: '234234'
+}
+3243
+234234
+69af41dcffec86f5924a13a6
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk',
+  title: '3243',
+  text: '234234'
+}
+3243
+234234
+69af41dcffec86f5924a13a6
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o'
+}
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:34:17 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /.well-known/appspecific/com.chrome.devtools.json
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o',
+  title: 'dasdsad',
+  text: 'dasdsadas'
+}
+dasdsad
+dasdsadas
+69b08253537e72b930f9ac98
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o',
+  title: 'dasdsad',
+  text: 'dasdsadas'
+}
+dasdsad
+dasdsadas
+69b08253537e72b930f9ac98
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk',
+  title: '2343',
+  text: '343'
+}
+2343
+343
+69af41dcffec86f5924a13a6
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o',
+  title: 'dasdsad',
+  text: 'dasdsadas'
+}
+dasdsad
+dasdsadas
+69b08253537e72b930f9ac98
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE3ODQ2MiwiZXhwIjoxNzczMTg5MjYyfQ.xYdrwQka90pcqMkCwRrsMmnz1L8tnSapHBFE-inyG0o',
+  title: 'dasdsad',
+  text: 'dasdsadas'
+}
+dasdsad
+dasdsadas
+69b08253537e72b930f9ac98
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '', title: 'dasdsad', text: 'dasdsadas' }
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '', title: 'dasdsad', text: 'dasdsadas' }
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+[TokenCheck] ОШИБКА: Нет токена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+[TokenCheck] ОШИБКА: Нет токена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+[TokenCheck] ОШИБКА: Нет токена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+[TokenCheck] ОШИБКА: Нет токена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /enterapi/log
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { email: '<user-profile></user-profile>@', password: '<user-profile>' }
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /user/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /profileapi/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho',
+  title: 'dasd',
+  text: 'dasd'
+}
+dasd
+dasd
+69b08253537e72b930f9ac98
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho',
+  title: 'dasdas',
+  text: 'dasdsad'
+}
+dasdas
+dasdsad
+69b08253537e72b930f9ac98
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:36:02 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /.well-known/appspecific/com.chrome.devtools.json
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzE4MTY1NiwiZXhwIjoxNzczMTkyNDU2fQ.FGxG_Xdh8KgrrtOiDS-tUSL-rlXGbNd0HYIsv6OTVmk',
+  title: '343',
+  text: '3434'
+}
+343
+3434
+69af41dcffec86f5924a13a6
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:36:30 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho',
+  title: 'dasdas',
+  text: 'dasdsad'
+}
+dasdas
+dasdsad
+69b08253537e72b930f9ac98
+АХУЕТЬ! вы прошли этот этап!
+АХУЕТЬ! но не т вы прошли этот этап
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /user/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /profileapi/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho',
+  title: 'фывфы',
+  text: 'вфывфы'
+}
+фывфы
+вфывфы
+69b08253537e72b930f9ac98
+АХУЕТЬ! вы прошли этот этап!
+АХУЕТЬ! но не т вы прошли этот этап
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /user/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /profileapi/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 01:37:11 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/create_post
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho',
+  title: 'вфывыфв',
+  text: 'вфывфы'
+}
+вфывыфв
+вфывфы
+69b08253537e72b930f9ac98
+АХУЕТЬ! но не т вы прошли этот этап
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /user/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /profileapi/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/123
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /chat/mylists
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /user/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /profileapi/69b08253537e72b930f9ac98
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YjA4MjUzNTM3ZTcyYjkzMGY5YWM5OCIsImlhdCI6MTc3MzE4MjA3NCwiZXhwIjoxNzczMTkyODc0fQ.O-qw2-cqkgzRdhfiN3OaJ8IgjQr1qDxcrJpA7zcGTho'
+}
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 11:16:21 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+[TokenCheck] ОШИБКА: Нет токена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/get_posts
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+[TokenCheck] ОШИБКА: Нет токена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /favicon.ico
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { token: '' }
+[TokenCheck] ОШИБКА: Нет токена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /enterapi/log
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): { email: 'edua4d21@gmail.com', password: 'Rubicon229' }
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /user/69af41dcffec86f5924a13a6
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /profileapi/69af41dcffec86f5924a13a6
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/get_posts
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map(0) {}, _posts: Map(0) {} },
+  _execCount: 0,
+  mongooseCollection: Collection {
+    collection: Collection { db: [Db], s: [Object], client: [MongoClient] },
+    Promise: [Function: Promise],
+    modelName: 'Posts',
+    _closed: false,
+    opts: {
+      autoIndex: true,
+      autoCreate: true,
+      autoSearchIndex: false,
+      schemaUserProvidedOptions: {},
+      capped: false,
+      Promise: undefined,
+      '$wasForceClosed': undefined
+    },
+    name: 'posts',
+    collectionName: 'posts',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: {},
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: undefined,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _queue: [],
+      _listening: false,
+      _lastHeartbeatAt: 1773216992244,
+      _connectionOptions: [Object],
+      _connectionString: 'mongodb://127.0.0.1:27017/mydatabase',
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      db: [Db],
+      host: '127.0.0.1',
+      port: 27017,
+      name: 'mydatabase',
+      Symbol(mongoose:defaultConnection): true
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      Symbol(shapeMode): false,
+      Symbol(kCapture): false
+    }
+  },
+  model: Model { Posts },
+  schema: Schema {
+    obj: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array]
+    },
+    paths: {
+      author: [SchemaString],
+      title: [SchemaString],
+      text: [SchemaString],
+      liked: [SchemaDocumentArray],
+      dislikes: [SchemaDocumentArray],
+      comments: [SchemaDocumentArray],
+      _id: [SchemaObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: {
+      'liked.author': [SchemaString],
+      'liked._id': [SchemaObjectId],
+      'dislikes.author': [SchemaString],
+      'dislikes._id': [SchemaObjectId],
+      'comments.author': [SchemaString],
+      'comments.text': [SchemaString],
+      'comments.likes': [SchemaNumber],
+      'comments.dislikes': [SchemaNumber],
+      'comments._id': [SchemaObjectId]
+    },
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    _searchIndexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: {},
+    tree: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [ [Object], [Object], [Object] ],
+    plugins: [ [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 5,
+    mapPaths: [],
+    encryptedFields: {},
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      strict: true,
+      strictQuery: false,
+      bufferCommands: true,
+      capped: false,
+      versionKey: '__v',
+      optimisticConcurrency: false,
+      minimize: true,
+      autoIndex: null,
+      discriminatorKey: '__t',
+      shardKey: null,
+      read: null,
+      validateBeforeSave: true,
+      validateModifiedOnly: false,
+      _id: true,
+      id: true,
+      typeKey: 'type',
+      pluralization: true
+    },
+    '$globalPluginsApplied': true
+  },
+  op: 'find',
+  options: { limit: 5 },
+  _conditions: {},
+  _fields: undefined,
+  _updateDoc: undefined,
+  _path: undefined,
+  _distinctDoc: undefined,
+  _collection: NodeCollection {
+    collection: Collection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      modelName: 'Posts',
+      _closed: false,
+      opts: [Object],
+      name: 'posts',
+      collectionName: 'posts',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'posts'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 11:17:01 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/get_posts
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map(0) {}, _posts: Map(0) {} },
+  _execCount: 0,
+  mongooseCollection: Collection {
+    collection: Collection { db: [Db], s: [Object], client: [MongoClient] },
+    Promise: [Function: Promise],
+    modelName: 'Posts',
+    _closed: false,
+    opts: {
+      autoIndex: true,
+      autoCreate: true,
+      autoSearchIndex: false,
+      schemaUserProvidedOptions: {},
+      capped: false,
+      Promise: undefined,
+      '$wasForceClosed': undefined
+    },
+    name: 'posts',
+    collectionName: 'posts',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: {},
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: undefined,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _queue: [],
+      _listening: false,
+      _lastHeartbeatAt: null,
+      _connectionOptions: [Object],
+      _connectionString: 'mongodb://127.0.0.1:27017/mydatabase',
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      db: [Db],
+      host: '127.0.0.1',
+      port: 27017,
+      name: 'mydatabase',
+      Symbol(mongoose:defaultConnection): true
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      Symbol(shapeMode): false,
+      Symbol(kCapture): false
+    }
+  },
+  model: Model { Posts },
+  schema: Schema {
+    obj: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array]
+    },
+    paths: {
+      author: [SchemaString],
+      title: [SchemaString],
+      text: [SchemaString],
+      liked: [SchemaDocumentArray],
+      dislikes: [SchemaDocumentArray],
+      comments: [SchemaDocumentArray],
+      _id: [SchemaObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: {
+      'liked.author': [SchemaString],
+      'liked._id': [SchemaObjectId],
+      'dislikes.author': [SchemaString],
+      'dislikes._id': [SchemaObjectId],
+      'comments.author': [SchemaString],
+      'comments.text': [SchemaString],
+      'comments.likes': [SchemaNumber],
+      'comments.dislikes': [SchemaNumber],
+      'comments._id': [SchemaObjectId]
+    },
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    _searchIndexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: {},
+    tree: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [ [Object], [Object], [Object] ],
+    plugins: [ [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 5,
+    mapPaths: [],
+    encryptedFields: {},
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      strict: true,
+      strictQuery: false,
+      bufferCommands: true,
+      capped: false,
+      versionKey: '__v',
+      optimisticConcurrency: false,
+      minimize: true,
+      autoIndex: null,
+      discriminatorKey: '__t',
+      shardKey: null,
+      read: null,
+      validateBeforeSave: true,
+      validateModifiedOnly: false,
+      _id: true,
+      id: true,
+      typeKey: 'type',
+      pluralization: true
+    },
+    '$globalPluginsApplied': true
+  },
+  op: 'find',
+  options: { limit: 5 },
+  _conditions: {},
+  _fields: undefined,
+  _updateDoc: undefined,
+  _path: undefined,
+  _distinctDoc: undefined,
+  _collection: NodeCollection {
+    collection: Collection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      modelName: 'Posts',
+      _closed: false,
+      opts: [Object],
+      name: 'posts',
+      collectionName: 'posts',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'posts'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+
+=== СЕРВЕР ЗАПУЩЕН: 11.03.2026, 11:17:36 ===
+Server is working on http://localhost
+MongoDB подключена
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /posts_user/get_posts
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map(0) {}, _posts: Map(0) {} },
+  _execCount: 0,
+  mongooseCollection: Collection {
+    collection: Collection { db: [Db], s: [Object], client: [MongoClient] },
+    Promise: [Function: Promise],
+    modelName: 'Posts',
+    _closed: false,
+    opts: {
+      autoIndex: true,
+      autoCreate: true,
+      autoSearchIndex: false,
+      schemaUserProvidedOptions: {},
+      capped: false,
+      Promise: undefined,
+      '$wasForceClosed': undefined
+    },
+    name: 'posts',
+    collectionName: 'posts',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: {},
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: undefined,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _queue: [],
+      _listening: false,
+      _lastHeartbeatAt: null,
+      _connectionOptions: [Object],
+      _connectionString: 'mongodb://127.0.0.1:27017/mydatabase',
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      db: [Db],
+      host: '127.0.0.1',
+      port: 27017,
+      name: 'mydatabase',
+      Symbol(mongoose:defaultConnection): true
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      Symbol(shapeMode): false,
+      Symbol(kCapture): false
+    }
+  },
+  model: Model { Posts },
+  schema: Schema {
+    obj: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array]
+    },
+    paths: {
+      author: [SchemaString],
+      title: [SchemaString],
+      text: [SchemaString],
+      liked: [SchemaDocumentArray],
+      dislikes: [SchemaDocumentArray],
+      comments: [SchemaDocumentArray],
+      _id: [SchemaObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: {
+      'liked.author': [SchemaString],
+      'liked._id': [SchemaObjectId],
+      'dislikes.author': [SchemaString],
+      'dislikes._id': [SchemaObjectId],
+      'comments.author': [SchemaString],
+      'comments.text': [SchemaString],
+      'comments.likes': [SchemaNumber],
+      'comments.dislikes': [SchemaNumber],
+      'comments._id': [SchemaObjectId]
+    },
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    _searchIndexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: {},
+    tree: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [ [Object], [Object], [Object] ],
+    plugins: [ [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 5,
+    mapPaths: [],
+    encryptedFields: {},
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      strict: true,
+      strictQuery: false,
+      bufferCommands: true,
+      capped: false,
+      versionKey: '__v',
+      optimisticConcurrency: false,
+      minimize: true,
+      autoIndex: null,
+      discriminatorKey: '__t',
+      shardKey: null,
+      read: null,
+      validateBeforeSave: true,
+      validateModifiedOnly: false,
+      _id: true,
+      id: true,
+      typeKey: 'type',
+      pluralization: true
+    },
+    '$globalPluginsApplied': true
+  },
+  op: 'find',
+  options: { limit: 5 },
+  _conditions: {},
+  _fields: undefined,
+  _updateDoc: undefined,
+  _path: undefined,
+  _distinctDoc: undefined,
+  _collection: NodeCollection {
+    collection: Collection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      modelName: 'Posts',
+      _closed: false,
+      opts: [Object],
+      name: 'posts',
+      collectionName: 'posts',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'posts'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: POST /main_info
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): {
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YWY0MWRjZmZlYzg2ZjU5MjRhMTNhNiIsImlhdCI6MTc3MzIxNjk5MSwiZXhwIjoxNzczMjI3NzkxfQ.Wj8HNixyVmB84c4FzSqlTBbkzR11nNvAm_MTIbssvVo'
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\express\lib\response.js:1034:12)
+    at ServerResponse.json (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\express\lib\response.js:245:14)
+    at C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\routes\posts_user.js:42:9
+    at Layer.handleRequest (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\route.js:157:13)
+    at TokenCheck (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\routes\auth.js:12:9)
+    at Layer.handleRequest (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\route.js:117:3)
+
+[ГЛОБАЛЬНЫЙ ЛОГ] Входящий запрос: GET /.well-known/appspecific/com.chrome.devtools.json
+[ГЛОБАЛЬНЫЙ ЛОГ] Тело запроса (req.body): undefined
+Server is working on http://localhost
+MongoDB подключена
+Query {
+  _mongooseOptions: {},
+  _transforms: [],
+  _hooks: Kareem { _pres: Map(0) {}, _posts: Map(0) {} },
+  _execCount: 0,
+  mongooseCollection: Collection {
+    collection: Collection { db: [Db], s: [Object], client: [MongoClient] },
+    Promise: [Function: Promise],
+    modelName: 'Posts',
+    _closed: false,
+    opts: {
+      autoIndex: true,
+      autoCreate: true,
+      autoSearchIndex: false,
+      schemaUserProvidedOptions: {},
+      capped: false,
+      Promise: undefined,
+      '$wasForceClosed': undefined
+    },
+    name: 'posts',
+    collectionName: 'posts',
+    conn: NativeConnection {
+      base: [Mongoose],
+      collections: [Object],
+      models: [Object],
+      config: {},
+      replica: false,
+      options: null,
+      otherDbs: [],
+      relatedDbs: {},
+      states: [Object: null prototype],
+      _readyState: 1,
+      _closeCalled: undefined,
+      _hasOpened: true,
+      plugins: [],
+      id: 0,
+      _queue: [],
+      _listening: false,
+      _lastHeartbeatAt: null,
+      _connectionOptions: [Object],
+      _connectionString: 'mongodb://127.0.0.1:27017/mydatabase',
+      client: [MongoClient],
+      '$initialConnection': [Promise],
+      db: [Db],
+      host: '127.0.0.1',
+      port: 27017,
+      name: 'mydatabase',
+      Symbol(mongoose:defaultConnection): true
+    },
+    queue: [],
+    buffer: false,
+    emitter: EventEmitter {
+      _events: [Object: null prototype] {},
+      _eventsCount: 0,
+      _maxListeners: undefined,
+      Symbol(shapeMode): false,
+      Symbol(kCapture): false
+    }
+  },
+  model: Model { Posts },
+  schema: Schema {
+    obj: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array]
+    },
+    paths: {
+      author: [SchemaString],
+      title: [SchemaString],
+      text: [SchemaString],
+      liked: [SchemaDocumentArray],
+      dislikes: [SchemaDocumentArray],
+      comments: [SchemaDocumentArray],
+      _id: [SchemaObjectId],
+      __v: [SchemaNumber]
+    },
+    aliases: {},
+    subpaths: {
+      'liked.author': [SchemaString],
+      'liked._id': [SchemaObjectId],
+      'dislikes.author': [SchemaString],
+      'dislikes._id': [SchemaObjectId],
+      'comments.author': [SchemaString],
+      'comments.text': [SchemaString],
+      'comments.likes': [SchemaNumber],
+      'comments.dislikes': [SchemaNumber],
+      'comments._id': [SchemaObjectId]
+    },
+    virtuals: { id: [VirtualType] },
+    singleNestedPaths: {},
+    nested: {},
+    inherits: {},
+    callQueue: [],
+    _indexes: [],
+    _searchIndexes: [],
+    methods: {},
+    methodOptions: {},
+    statics: {},
+    tree: {
+      author: [Object],
+      title: [Object],
+      text: [Object],
+      liked: [Array],
+      dislikes: [Array],
+      comments: [Array],
+      _id: [Object],
+      __v: [Function: Number],
+      id: [VirtualType]
+    },
+    query: {},
+    childSchemas: [ [Object], [Object], [Object] ],
+    plugins: [ [Object], [Object], [Object], [Object], [Object] ],
+    '$id': 5,
+    mapPaths: [],
+    encryptedFields: {},
+    s: { hooks: [Kareem] },
+    _userProvidedOptions: {},
+    options: {
+      strict: true,
+      strictQuery: false,
+      bufferCommands: true,
+      capped: false,
+      versionKey: '__v',
+      optimisticConcurrency: false,
+      minimize: true,
+      autoIndex: null,
+      discriminatorKey: '__t',
+      shardKey: null,
+      read: null,
+      validateBeforeSave: true,
+      validateModifiedOnly: false,
+      _id: true,
+      id: true,
+      typeKey: 'type',
+      pluralization: true
+    },
+    '$globalPluginsApplied': true
+  },
+  op: 'find',
+  options: { limit: 5 },
+  _conditions: {},
+  _fields: undefined,
+  _updateDoc: undefined,
+  _path: undefined,
+  _distinctDoc: undefined,
+  _collection: NodeCollection {
+    collection: Collection {
+      collection: [Collection],
+      Promise: [Function: Promise],
+      modelName: 'Posts',
+      _closed: false,
+      opts: [Object],
+      name: 'posts',
+      collectionName: 'posts',
+      conn: [NativeConnection],
+      queue: [],
+      buffer: false,
+      emitter: [EventEmitter]
+    },
+    collectionName: 'posts'
+  },
+  _traceFunction: undefined,
+  '$useProjection': true
+}
+TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\express\lib\response.js:1034:12)
+    at ServerResponse.json (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\express\lib\response.js:245:14)
+    at C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\routes\posts_user.js:42:9
+    at Layer.handleRequest (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\route.js:157:13)
+    at TokenCheck (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\routes\auth.js:12:9)
+    at Layer.handleRequest (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\layer.js:152:17)
+    at next (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (C:\Users\Edua4\OneDrive\Desktop\2 work\project_13\node_modules\router\lib\route.js:117:3)

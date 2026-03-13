@@ -8,30 +8,11 @@
     <link rel="stylesheet" href="/user/user.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>F&Friends</h1>
-            <nav></nav>
-            <ul>
-                <li id="ToMain-href"></li>
-                <li id="ToRules-href"></li>
-                <li id="ToGroups-href"></li>
-                <li id="Login-href"></li>
-            </ul>
-        </div>
-    </header>
+    <top-header></top-header>
+    <script src="/navMenu.js"></script>
     <div class="container">
         <section class="main">
-            <div class="user-side">
-                <ul>
-                    <li id="home-link">Моя страница</li>
-                    <li id="friends-link">Друзья</li>
-                    <li id="message-link">Сообщения</li>
-                    <li id="groups-link">Создать пост</li>
-                    <li id="settings-link">настройки аккаунта</li>
-                    <li id="quit-link">Выйти из аккаунт</li>
-                </ul>
-            </div>
+            <user-profile></user-profile>
             <div class="profile-holder">
                 <nav>
                     <img src="https://i0.wp.com/digitalhealthskills.com/wp-content/uploads/2022/11/3da39-no-user-image-icon-27.png?fit=500%2C500&ssl=1" alt="">
@@ -41,11 +22,15 @@
                         <p id="Yo"></p>
                     </div>
                 </nav>
+                <div class="users-posts">
+                    <div id="bottom-trigger">😶‍🌫️</div>
+                </div>
+            </div>
+            <div class="event-side">
             </div>
         </section>
     </div>
     <script src="/user/user.js"></script>
-    <script src="/global.js"></script>
-    <script src="/leftmenu.js"></script>
+    <script src="/leftNavMenu.js"></script>
 </body>
 </html>

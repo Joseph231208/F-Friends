@@ -12,8 +12,6 @@ var bs_list = document.getElementsByClassName('blacklist')
 
 var addfr_buttons = document.getElementsByClassName('buttons-addfriend')
 var profile_picture = document.getElementsByClassName('profile-picture')
-var mfs_list = document.getElementsByClassName('myfriends')
-
 var thelist = document.getElementsByClassName('ff-event-placeholder')
 var thereqtomelist = document.getElementsByClassName('request-holder-tome')
 var thereqfrommelist = document.getElementsByClassName('request-holder-fromme')
@@ -113,7 +111,7 @@ async function deletefriend(id) {
 
     let res = await x.json()
     mfs_list[0].replaceChildren()
-    loadFriends()
+    await loadFriends()
 
 }
 
@@ -155,6 +153,9 @@ thereqtomelist[0].addEventListener('click', (element) => {
             let buttons = document.getElementsByClassName('req-accept')
             let tables = thereqtomelist[0].children
             let index = Array.from(buttons).indexOf(element.target)
+            let side_index = document.getElementById('new_friends_request')
+            side_index.textContent = Number(side_index.textContent) - 1
+            if (side_index.textContent < 1){ side_index.textContent = "" }
 
             let target_id = tables[index].querySelector('a').textContent
 
@@ -174,7 +175,7 @@ thereqtomelist[0].addEventListener('click', (element) => {
 })
 
 list_array.forEach(element => {
-    element.addEventListener('click', function(){
+    element.addEventListener('click', async function(){
         target_sided(element)
 
         mfs_list[0].classList.add('hidden')
@@ -184,7 +185,7 @@ list_array.forEach(element => {
 
         if (element.id == "my-friends-side"){
             mfs_list[0].classList.remove('hidden')
-            loadFriends()
+            await loadFriends()
         }
         if (element.id == "find-friends-side"){
             ffs_list[0].classList.remove('hidden')
@@ -202,10 +203,7 @@ list_array.forEach(element => {
 });
 
 async function getnameandbd(id) {
-    let x = await fetch (`/profileapi/${id}`)
-
-    let y = await x.json()
-    return y
+    return (await fetch (`/profileapi/${id}`)).json();
 }
 
 async function createdatareq(data){
@@ -238,10 +236,7 @@ async function loadreqtome(token) {
         console.log("Ошибка сервера:", x.status)
         return
     }
-
     let response = await x.json()
-    
-    
     createdatareq(response)
 }
 
@@ -420,6 +415,7 @@ function createdatatoFL(data){
 }
 
 function createdatareqtome(data){
+
     let box = document.createElement('div')
     let img = document.createElement('img')
     let fd = document.createElement('div')
@@ -502,11 +498,11 @@ function findYO(data){
     let arr = data.split('-')
     let age = today[0] - arr[0]
     if (today[1] < arr[1]){
-        age = age + 1
+        age = age - 1
     }
     if (today[1] == arr[1]){
-        if(today[2] < arr[2]){
-            age = age + 1
+        if(Number(today[2]) < Number(arr[2])){
+            age = age - 1
         }
     }
     return `${age} Years old`

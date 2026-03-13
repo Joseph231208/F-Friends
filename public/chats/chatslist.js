@@ -68,6 +68,7 @@ async function createChatsdata(data){
         })
         })
         let response = await t.json()
+        console.log(response)
 
 
         let chat = document.createElement('div')
@@ -79,6 +80,7 @@ async function createChatsdata(data){
         let lastmes = document.createElement('p')
         let buttonholder = document.createElement('div')
         let button = document.createElement('button') 
+        let newones = document.createElement('h3')
 
         chat.append(img)
         chat.append(box)
@@ -88,6 +90,7 @@ async function createChatsdata(data){
         nav.append(h3)
         nav.append(date)
         buttonholder.append(button)
+        buttonholder.append(newones)
 
         chat.id = x.chatid
         nav.id = x.towhosId
@@ -100,6 +103,7 @@ async function createChatsdata(data){
         } else { lastmes.textContent = "У вас еще нет сообщений" }
         
         button.textContent = "🗑️"
+        newones.textContent = response.newones
 
         chats[0].append(chat)
 
@@ -108,5 +112,6 @@ async function createChatsdata(data){
         date.classList.add('chat-data')
         buttonholder.classList.add('buttonholder')
         button.classList.add('delete-chat')
+        newones.classList.add('new_count')
     }
 }

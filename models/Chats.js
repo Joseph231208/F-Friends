@@ -9,7 +9,8 @@ const Chats = new mongoose.Schema({
             text: String,
             author: String,
             send_date: String,
-            status: String,
+            sender_status: String,
+            second_user_status: String
         }
     ],
     first_user_status: String,

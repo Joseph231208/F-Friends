@@ -8,30 +8,11 @@
     <link rel="stylesheet" href="/friends/friends.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>F&Friends</h1>
-            <nav></nav>
-            <ul>
-                <li id="ToMain-href"></li>
-                <li id="ToRules-href"></li>
-                <li id="ToGroups-href"></li>
-                <li id="Login-href"></li>
-            </ul>
-        </div>
-    </header>
+    <top-header></top-header>
+    <script src="/navMenu.js"></script>
     <div class="container">
         <section class="main">
-                <div class="user-side">
-                    <ul>
-                        <li id="home-link">Моя страница</li>
-                        <li id="friends-link">Друзья</li>
-                        <li id="message-link">Сообщения</li>
-                        <li id="groups-link">Создать пост</li>
-                        <li id="settings-link">настройки аккаунта</li>
-                        <li id="quit-link">Выйти из аккаунт</li>
-                    </ul>
-                </div>
+                <user-profile></user-profile>
                 <div class="friends-list">
                     <div class="pick-list">
                         <button id="my-friends-side" class="slide-active">Мои друзья</button>
@@ -76,8 +57,7 @@
         </div>
 
 
-    <script src="/leftmenu.js"></script>
-    <script src="/global.js"></script>
+    <script src="/leftNavMenu.js"></script>
     <script src="/friends/friends.js"></script>
 </body>
 </html>

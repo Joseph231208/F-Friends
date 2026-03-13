@@ -34,7 +34,6 @@ router.post('/readfriendreq', async(req, res) => {
     let x = await User.findOne({ _id: req.body.token.id })
 
     let reqFriends = x.friends.filter(f => f.status == "request")
-
     res.json(reqFriends)
 })
 

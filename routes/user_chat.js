@@ -2,7 +2,7 @@ const express = require('express')
 const router = express.Router()
 const User = require('../models/User')
 const Chats = require('../models/Chats')
-
+const { TokenCheck } = require('./auth.js');
 const jwt = require('jsonwebtoken')
 
 const FIVE_MINUTES = 5 * 60 * 1000;
@@ -22,20 +22,6 @@ function addlimit(){
 
 function clearlimit(){
     limit = 0
-}
-
-function TokenCheck(req, res, next) {
-    if (!req.body.token) {
-        return res.status(401).json({ error: "Нет токена"})
-    }
-
-    try {
-        const decoded = jwt.verify(req.body.token, process.env.JWT_SECRET)
-        req.body.token = decoded
-        next()
-    } catch {
-        return res.status(403).json({ error: "Неверный токен" })
-    }
 }
 
 router.post('/createchat', TokenCheck, async (req, res) => {
@@ -147,8 +133,9 @@ router.post('/loadalldata', TokenCheck ,  async (req, res) => {
             }
         ]
     })
+    await nonew(req.body.token.id, req.body.Towhoid)
     let towho = await User.findOne({ _id: req.body.Towhoid })
-    let messages = x.messages.slice(-20)
+    let messages = x.messages.slice(-100)
     let data = {
         name: towho.name,
         userid: req.body.Towhoid,
@@ -187,10 +174,21 @@ router.post('/getlast', TokenCheck, async (req, res) => {
             }
         ]
     })
+    let allnewones = 0
+    for (h of x.messages){
+        if (h.author != req.body.token.id && h.second_user_status == "unread"){
+            allnewones ++;
+        }
+
+    }
+    if (allnewones == 0){ allnewones = "" }
     if (!x.messages){ return res.json({ }) }
     let theindex = x.messages.length
     let answer = x.messages[theindex - 1]
-    res.json({text: answer})
+    res.json({
+        text: answer,
+        newones: allnewones
+    })
 })
 
 router.post('/sendmessage', TokenCheck, async (req, res) => {
@@ -217,7 +215,8 @@ router.post('/sendmessage', TokenCheck, async (req, res) => {
             text: req.body.text,
             author: req.body.token.id,
             send_date: req.body.send_date,
-            status: "send"
+            sender_status: "sended",
+            second_user_status: "unread"
         }
     if (await friendscheck(req.body.token.id, req.body.Towhoid)){
         await Chats.updateOne(
@@ -274,6 +273,37 @@ router.post ('/deletemessage', TokenCheck, async(req, res) => {
     res.json({ message: "success" })
 })
 
+async function nonew(me, my){
+    await Chats.updateOne(
+    {
+        $or: [
+            {
+                first_user: me,
+                second_user: my
+            },
+            {
+                first_user: my,
+                second_user: me
+            }
+        ]
+    },
+    {
+        $set: {
+            "messages.$[elem].second_user_status": "read"
+        }
+    },
+    {
+        arrayFilters: [
+            {
+                "elem.author": my,
+                "elem.second_user_status": "unread"
+
+            }
+        ]
+    }
+)
+}
+
 router.post('/loaddata', TokenCheck, async(req, res) => {
     let x = await Chats.findOne({
         $or: [
@@ -290,7 +320,7 @@ router.post('/loaddata', TokenCheck, async(req, res) => {
     let thelist = Array.from(x.messages)
     if (!thelist.length) return res.json({ message: "none" })
     lastmes2 = x.messages[x.messages.length - 1]
-    
+    await nonew(req.body.token.id, req.body.Towhoid)
     let newones = []
     if (req.body.lastmesid == null){
         for (let i = 0; i < thelist.length; i++){
@@ -311,5 +341,24 @@ router.post('/loaddata', TokenCheck, async(req, res) => {
     res.json({ message: "none"})
 })
 
+router.post('/any_new',TokenCheck, async (req, res) => {
+    let x = await Chats.find({$or: [
+            {
+                first_user: req.body.token.id,
+            },
+            {
+                second_user: req.body.token.id
+            }
+        ]})
+    let allnew = 0
+
+    for (let chat of x) {
+        for (let y of chat.messages){
+        if (y.author != req.body.token.id && y.second_user_status == "unread"){
+            allnew++
+        }}}
+    if (allnew == 0){ allnew = "" }
+    res.json({ result: allnew})
+})
 
 module.exports = router

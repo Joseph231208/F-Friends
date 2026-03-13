@@ -101,8 +101,26 @@
 .chat .buttonholder {
     padding: 10px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+.new_count:empty {
+    display: none !important;
+}
+
+.new_count {
+    padding: 10px;
+    font-size: 15px;
+    background-color: greenyellow;
+    border-radius: 10px;
+
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    aspect-ratio: 1/1;
 }
 
 .chat button {
